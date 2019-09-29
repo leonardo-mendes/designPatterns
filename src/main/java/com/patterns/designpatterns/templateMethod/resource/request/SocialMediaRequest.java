@@ -1,0 +1,15 @@
+package com.patterns.designpatterns.templateMethod.resource.request;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class SocialMediaRequest {
+
+    private String username;
+}
