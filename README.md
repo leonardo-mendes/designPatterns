@@ -20,3 +20,6 @@ The Template Method pattern suggests that you break down an algorithm into a ser
 The State pattern suggests that you create new classes for all possible states of an object and extract all state-specific behaviors into these classes.
 
 Instead of implementing all behaviors on its own, the original object, called context, stores a reference to one of the state objects that represents its current state, and delegates all the state-related work to that object.
+
+#### - Chain of Responsibility
+Chain of Responsibility is a behavioral design pattern that lets you pass requests along a chain of handlers. Upon receiving a request, each handler decides either to process the request or to pass it to the next handler in the chain.
